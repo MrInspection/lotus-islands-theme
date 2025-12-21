@@ -13,10 +13,9 @@
         <li>Lotus Islands Light</li>
     </ul>
 
-    <div style="text-align: center; grid-gap: 1.5rem; display: flex; flex-direction: column;">
-        <img src="https://raw.githubusercontent.com/blai30/Lotus-Theme/main/src/main/resources/screenshots/dark.png" alt="dark" width="400">
-        <img src="https://raw.githubusercontent.com/blai30/Lotus-Theme/main/src/main/resources/screenshots/light.png" alt="light" width="400">
-    </div>
+    <img src="https://github.com/MrInspection/lotus-islands-theme/raw/master/docs/lotus-islands-dark.png" alt="dark" style="margin-bottom: 1rem;">
+    <img src="https://github.com/MrInspection/lotus-islands-theme/blob/master/docs/lotus-islands-light.png" alt="light">
+
     ]]></description>
 
     <idea-version since-build="253"/>
