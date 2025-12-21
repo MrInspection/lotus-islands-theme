@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>fr.moussax.lotus-islands-theme</id>
+    <name>Lotus Islands Theme</name>
+    <vendor url="https://moussax.vercel.app/theme">Moussa</vendor>
+
+    <description><![CDATA[
+    <h1>Lotus Islands Theme</h1>
+    <p>The beloved <b>Lotus</b> color scheme, beautifully adapted for the new <b>JetBrains Islands UI</b> (2025.3+). Based on the original Lotus Theme from Vladislav Bataev.</p>
+
+    Includes a dark theme and light theme.
+    <ul>
+        <li>Lotus Islands Dark</li>
+        <li>Lotus Islands Light</li>
+    </ul>
+
+    <div style="text-align: center; grid-gap: 1.5rem; display: flex; flex-direction: column;">
+        <img src="https://raw.githubusercontent.com/blai30/Lotus-Theme/main/src/main/resources/screenshots/dark.png" alt="dark" width="400">
+        <img src="https://raw.githubusercontent.com/blai30/Lotus-Theme/main/src/main/resources/screenshots/light.png" alt="light" width="400">
+    </div>
+    ]]></description>
+
+    <idea-version since-build="253"/>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="fr.moussax.lotus-islands-theme.dark" path="/themes/lotus-dark.theme.json"/>
+        <themeProvider id="fr.moussax.lotus-islands-theme.light" path="/themes/lotus-light.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
