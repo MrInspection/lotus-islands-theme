@@ -5,4 +5,9 @@
 
 The beloved **Lotus Theme**, beautifully adapted for the new **JetBrains Islands UI** (2025.3+). This theme contains colors from [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets).
 
+The plugin includes a dark (Lotus Islands Dark) and a light (Lotus Islands Light) theme.
+
+![](docs/lotus-islands-dark.png)
+
+![](docs/lotus-islands-light.png)
 
