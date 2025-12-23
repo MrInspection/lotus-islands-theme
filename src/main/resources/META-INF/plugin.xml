@@ -4,18 +4,25 @@
     <vendor url="https://moussax.vercel.app/theme">Moussa</vendor>
 
     <description><![CDATA[
-    <h1>Lotus Islands Theme</h1>
-    <p>The beloved <b>Lotus</b> color scheme, beautifully adapted for the new <b>JetBrains Islands UI</b> (2025.3+). Based on the original Lotus Theme from Vladislav Bataev.</p>
+    <main style="padding: 0 2rem; line-height: 1.5; font-size: 18px">
+        <h1>Lotus Islands Theme</h1>
+        <p>
+            The beloved <b>Lotus</b> color scheme, beautifully adapted for the new <b>JetBrains Islands UI</b> (2025.3+).
+            Based on the original Lotus Theme from <b style="text-decoration: underline; text-underline-offset: 0.25rem">Brian Lai</b>.
+        </p>
+        <p>Includes a dark theme and light theme.</p>
+        <ul>
+            <li>Lotus Islands Dark</li>
+            <li>Lotus Islands Light</li>
+        </ul>
 
-    Includes a dark theme and light theme.
-    <ul>
-        <li>Lotus Islands Dark</li>
-        <li>Lotus Islands Light</li>
-    </ul>
-
-    <img src="https://github.com/MrInspection/lotus-islands-theme/raw/master/docs/lotus-islands-dark.png" alt="dark" style="margin-bottom: 1rem;">
-    <img src="https://github.com/MrInspection/lotus-islands-theme/blob/master/docs/lotus-islands-light.png" alt="light">
-
+        <div style="display: flex; flex-direction: column; justify-content: space-around; gap: 1.5rem; padding-top: 1rem">
+            <img src="https://github.com/MrInspection/lotus-islands-theme/raw/master/docs/lotus-islands-dark.png" alt="dark"
+                style="border-radius: 1rem;">
+            <img src="https://github.com/MrInspection/lotus-islands-theme/raw/master/docs/lotus-islands-light.png"
+                alt="light" style="border-radius: 1rem;">
+        </div>
+    </main>
     ]]></description>
 
     <idea-version since-build="253"/>
