@@ -30,12 +30,11 @@
   "ui": {
     "Island": {
       "borderColor": "border",
-      "arc": 24,
-      "borderWidth": 8
+      "arc": 20,
+      "borderWidth": 6
     },
 
     "StatusBar.borderColor": "transparent",
-    "ToolWindow.Stripe.borderColor": "transparent",
     "MainToolbar.borderColor": "transparent",
 
     "*": {
@@ -84,7 +83,7 @@
       "borderColor": "border",
       "startBorderColor": "border",
       "endBorderColor": "border",
-      "arc": "12",
+      "arc": "8",
 
       "default": {
         "foreground": "#FFFFFF"
@@ -594,6 +593,9 @@
     },
 
     "ToolWindow": {
+      "Stripe": {
+        "borderColor": "transparent"
+      },
       "Header": {
         "background": "secondaryBackgroundColor",
         "inactiveBackground": "backgroundColor",
