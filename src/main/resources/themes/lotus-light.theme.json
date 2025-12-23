@@ -6,19 +6,19 @@
   "editorScheme": "/colors/Lotus_Light.xml",
 
   "colors": {
-    "backgroundColor": "#fafafa",
-    "foregroundColor": "#563d58",
-    "textColor": "#b094af",
-    "selectionBackgroundColor": "#ffd0fb",
-    "selectionForegroundColor": "#4e3a4c",
-    "buttonColor": "#f3f4f5",
+    "background": "#fafafa",
+    "foreground": "#563d58",
+    "text": "#b094af",
+    "selectionBackground": "#ffd0fb",
+    "selectionForeground": "#4e3a4c",
+    "button": "#f3f4f5",
     "secondaryBackgroundColor": "#fafafa",
-    "disabledColor": "#d2d4d5",
-    "contrastColor": "#f4f4f4",
+    "disabled": "#d2d4d5",
+    "contrast": "#f4f4f4",
     "tableSelectedColor": "#f5f5f5",
     "secondBorderColor": "#d3e1e8",
-    "highlightColor": "#e7e7e8",
-    "treeSelectionColor": "#ffb6f8",
+    "highlight": "#e7e7e8",
+    "treeSelection": "#ffb6f8",
     "notificationsColor": "#eae8e8",
     "accentColor": "#de67bb",
     "excludedColor": "#eae8e8",
@@ -35,9 +35,7 @@
     },
 
     "StatusBar.borderColor": "transparent",
-    "ToolWindow.Stripe.borderColor": "transparent",
     "MainToolbar.borderColor": "transparent",
-
 
     "*": {
       "foreground": "foregroundColor",
@@ -85,7 +83,7 @@
       "borderColor": "border",
       "startBorderColor": "border",
       "endBorderColor": "border",
-      "arc": "12",
+      "arc": "8",
 
       "default": {
         "foreground": "#FFFFFF"
@@ -560,7 +558,7 @@
       "foreground": "foregroundColor",
       "offForeground": "foregroundColor",
       "offBackground": "foregroundColor",
-      "buttonColor":  "buttonColor",
+      "button":  "buttonColor",
       "borderColor": "buttonColor",
       "disabledText": "disabledColor"
     },
@@ -595,6 +593,9 @@
     },
 
     "ToolWindow": {
+      "Stripe": {
+        "borderColor": "transparent"
+      },
       "Header": {
         "background": "secondaryBackgroundColor",
         "inactiveBackground": "backgroundColor",
