@@ -20,7 +20,8 @@
     "treeSelection": "#292929",
     "button": "#1C1C1C",
     "notificationsColor": "#111111",
-    "primary": "#1447E6FF"
+    "primary": "#1447E6FF",
+    "destructive": "#FF6467FF"
   },
 
   "ui": {
@@ -30,7 +31,6 @@
       "borderWidth": 6
     },
     "StatusBar.borderColor": "transparent",
-    "ToolWindow.Stripe.borderColor": "transparent",
     "MainToolbar.borderColor": "transparent",
 
     "*": {
@@ -38,7 +38,7 @@
       "background": "background",
       "textForeground": "text",
       "textBackground": "background",
-      "errorForeground": "#FA3232",
+      "errorForeground": "destructive",
       "infoForeground": "foreground",
       "disabledForeground": "foreground",
       "disabledText": "foreground",
@@ -52,8 +52,6 @@
       "acceleratorForeground": "selectionForeground",
       "acceleratorSelectionForeground": "selectionForeground",
       "disabledBorderColor": "disabled",
-      "hoverBorderColor": "border",
-      "pressedBorderColor": "foreground",
       "separatorColor": "treeSelection",
       "lineSeparatorColor": "treeSelection"
     },
@@ -65,10 +63,6 @@
       "underlinedTabBackground": "muted"
     },
 
-    "ActionButton": {
-      "hoverBorderColor": "button"
-    },
-
     "Borders": {
       "color": "muted",
       "ContrastBorderColor": "background"
@@ -78,17 +72,17 @@
       "foreground": "foreground",
       "startBackground": "button",
       "endBackground": "button",
-      "shadowColor": "background",
       "borderColor": "border",
       "startBorderColor": "border",
       "endBorderColor": "border",
-      "arc": "12",
+      "arc": "8",
 
       "default": {
-        "shadowColor": "background",
         "foreground": "selectionForeground",
         "startBackground": "primary",
-        "endBackground": "primary"
+        "endBackground": "primary",
+        "focusColor": "primary",
+        "focusedBorderColor": "muted"
       }
     },
 
@@ -141,10 +135,10 @@
       "selectionInactiveBackground": "highlight"
     },
     "Component": {
-      "borderColor": "highlight",
+      "borderColor": "border",
       "infoForeground": "text",
       "disabledBorderColor": "disabled",
-      "focusedBorderColor": "highlight"
+      "focusColor": "primary"
     },
     "Counter": {
       "foreground": "selectionForeground"
@@ -171,11 +165,8 @@
       "shortcutForeground": "text"
     },
     "EditorPane": {
-      "inactiveBackground": "background"
-    },
-    "FileColor": {
-    },
-    "FlameGraph": {
+      "inactiveBackground": "background",
+      "splitBorder": "border"
     },
     "FormattedTextField": {
       "foreground": "foreground",
@@ -509,6 +500,12 @@
       }
     },
     "ToolWindow": {
+      "Stripe": {
+        "borderColor": "transparent"
+      },
+      "Button": {
+        "selectedBackground": "primary"
+      },
       "Header": {
         "background": "selectionBackground",
         "inactiveBackground": "background",
