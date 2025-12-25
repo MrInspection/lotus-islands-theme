@@ -1,29 +1,46 @@
 <idea-plugin>
     <id>fr.moussax.lotus-islands-theme</id>
     <name>Lotus Islands Theme</name>
-    <vendor url="https://moussax.vercel.app/theme">Moussa</vendor>
+    <vendor url="https://moussax.vercel.app/theme" email="codewithmoussa@gmail.com">Moussa</vendor>
+    <version>1.0.2</version>
 
     <description><![CDATA[
     <main style="padding: 0 2rem; line-height: 1.5; font-size: 18px">
         <h1>Lotus Islands Theme</h1>
         <p>
-            The beloved <b>Lotus</b> color scheme, beautifully adapted for the new <b>JetBrains Islands UI</b> (2025.3+).
+            The beloved <b>Lotus</b> color scheme, beautifully adapted with several enhancements for the new <b>JetBrains Islands UI</b> (2025.3+).
             Based on the original Lotus Theme from <b style="text-decoration: underline; text-underline-offset: 0.25rem">Brian Lai</b>.
         </p>
+
         <p>Includes a dark theme and light theme.</p>
         <ul>
             <li>Lotus Islands Dark</li>
             <li>Lotus Islands Light</li>
         </ul>
-
-        <div style="display: flex; flex-direction: column; justify-content: space-around; gap: 1.5rem; padding-top: 1rem">
-            <img src="https://github.com/MrInspection/lotus-islands-theme/raw/master/docs/lotus-islands-dark.png" alt="dark"
-                style="border-radius: 1rem;">
-            <img src="https://github.com/MrInspection/lotus-islands-theme/raw/master/docs/lotus-islands-light.png"
-                alt="light" style="border-radius: 1rem;">
-        </div>
     </main>
     ]]></description>
+
+    <change-notes><![CDATA[
+    <br>
+    <b>Version 1.0.2</b>
+    <ul>
+      <li>Refined Lotus Islands Light syntax colors for better readability</li>
+      <li>Refined Lotus Islands Light UI elements for improved contrast</li>
+      <li>Refined UI colors to be more neutral.</li>
+      <li>More fixes and improvements</li>
+    </ul>
+    <br>
+    <b>Version 1.0.1</b>
+    <ul>
+      <li>Fixed Lotus Islands Dark color highlights issues.</li>
+      <li>Enhanced Lotus Islands Dark colors with clearer borders and more...</li>
+    </ul>
+    <br>
+    <b>Version 1.0.0</b>
+    <ul>
+      <li>Initial version with support for the new Islands UI (2025.3).</li>
+    </ul>
+  ]]></change-notes>
 
     <idea-version since-build="253"/>
     <depends>com.intellij.modules.platform</depends>
