@@ -12,7 +12,7 @@
     "mutedForeground": "#A1A1A1FF",
     "transparent": "#00000000",
     "contrast": "#101010",
-    "disabled": "#5A5A5A",
+    "disabled": "#2a2a2a",
     "text": "#757575",
     "highlight": "#565656",
     "selectionBackground": "#323232",
@@ -26,7 +26,7 @@
 
   "ui": {
     "Island": {
-      "borderColor": "border",
+      "borderColor": "muted",
       "arc": 20,
       "borderWidth": 6
     },
@@ -110,7 +110,6 @@
     "ComboBox": {
       "foreground": "foreground",
       "background": "background",
-      "disabledForeground": "disabled",
       "selectionForeground": "foreground",
       "selectionBackground": "muted",
       "nonEditableBackground": "background",
@@ -196,7 +195,6 @@
       "foreground": "foreground",
       "infoForeground": "text",
       "selectedForeground": "selectionForeground",
-      "disabledForeground": "disabled",
       "disabledText": "disabled"
     },
     "Link": {
@@ -281,6 +279,7 @@
       "selectionBackground": "muted",
       "inactiveForeground": "disabled"
     },
+
     "Plugins": {
       "disabledForeground": "disabled",
       "lightSelectionBackground": "selectionBackground",
