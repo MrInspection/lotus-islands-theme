@@ -5,11 +5,11 @@
   "parentTheme": "Islands Dark",
   "editorScheme": "/colors/Lotus_Dark.xml",
   "colors": {
-    "background": "#141414",
-    "foreground": "#b0b0b0",
-    "border": "#FFFFFF1A",
+    "background": "#0E0F11",
+    "foreground": "#DADBDD",
+    "border": "#363A44",
     "muted": "#262626",
-    "mutedForeground": "#A1A1A1FF",
+    "mutedForeground": "#8F9299",
     "transparent": "#00000000",
     "contrast": "#101010",
     "disabled": "#2a2a2a",
@@ -20,19 +20,18 @@
     "treeSelection": "#292929",
     "button": "#1C1C1C",
     "notificationsColor": "#111111",
-    "primary": "#1447E6FF",
-    "destructive": "#FF6467FF"
+    "primary": "#A259FB",
+    "primaryHover": "#8247C9",
+    "destructive": "#FF0000"
   },
-
   "ui": {
     "Island": {
       "borderColor": "muted",
-      "arc": 20,
+      "arc": 24,
       "borderWidth": 6
     },
     "StatusBar.borderColor": "transparent",
     "MainToolbar.borderColor": "transparent",
-
     "*": {
       "foreground": "foreground",
       "background": "background",
@@ -40,9 +39,9 @@
       "textBackground": "background",
       "errorForeground": "destructive",
       "infoForeground": "foreground",
-      "disabledForeground": "foreground",
-      "disabledText": "foreground",
-      "inactiveForeground": "foreground",
+      "disabledForeground": "mutedForeground",
+      "disabledText": "mutedForeground",
+      "inactiveForeground": "mutedForeground",
       "disabledBackground": "disabled",
       "inactiveBackground": "disabled",
       "selectionForeground": "selectionForeground",
@@ -53,21 +52,19 @@
       "acceleratorSelectionForeground": "selectionForeground",
       "disabledBorderColor": "disabled",
       "separatorColor": "treeSelection",
-      "lineSeparatorColor": "treeSelection"
+      "lineSeparatorColor": "treeSelection",
+      "focusColor": "primary"
     },
-
     "EditorTabs": {
       "background": "background",
       "underlinedBorderColor": "border",
       "inactiveColoredFileBackground": "background",
       "underlinedTabBackground": "muted"
     },
-
     "Borders": {
       "color": "muted",
       "ContrastBorderColor": "background"
     },
-
     "Button": {
       "foreground": "foreground",
       "startBackground": "button",
@@ -75,30 +72,28 @@
       "borderColor": "border",
       "startBorderColor": "border",
       "endBorderColor": "border",
+      "focusColor": "primary",
       "arc": "8",
-
       "default": {
         "foreground": "selectionForeground",
         "startBackground": "primary",
         "endBackground": "primary",
-        "focusColor": "primary",
+        "focusColor": "primaryHover",
         "focusedBorderColor": "muted"
       }
     },
-
     "CheckBox": {
       "foreground": "foreground",
       "background": "background",
-      "disabledText": "disabled",
+      "disabledText": "mutedForeground",
       "select": "selectionForeground"
     },
-
     "CheckBoxMenuItem": {
       "foreground": "foreground",
       "background": "background",
       "selectionForeground": "selectionForeground",
       "selectionBackground": "selectionBackground",
-      "disabledForeground": "disabled",
+      "disabledForeground": "mutedForeground",
       "disabledBackground": "background",
       "acceleratorForeground": "text",
       "acceleratorSelectionForeground": "text"
@@ -123,11 +118,9 @@
     "ComboBoxButton": {
       "background": "button"
     },
-
     "ComboPopup": {
       "border": "border"
     },
-
     "CompletionPopup": {
       "foreground": "foreground",
       "selectionBackground": "selectionBackground",
@@ -195,9 +188,13 @@
       "foreground": "foreground",
       "infoForeground": "text",
       "selectedForeground": "selectionForeground",
-      "disabledText": "disabled"
+      "disabledText": "mutedForeground"
     },
     "Link": {
+      "activeForeground": "primary",
+      "hoverForeground": "primaryHover",
+      "pressedForeground": "primaryHover",
+      "visitedForeground": "primary",
       "secondaryForeground": "text"
     },
     "List": {
@@ -216,7 +213,7 @@
       "foreground": "foreground",
       "selectionForeground": "selectionForeground",
       "selectionBackground": "selectionBackground",
-      "disabledForeground": "disabled",
+      "disabledForeground": "mutedForeground",
       "acceleratorForeground": "text",
       "acceleratorSelectionForeground": "selectionForeground",
       "borderColor": "selectionBackground",
@@ -224,7 +221,7 @@
     },
     "MenuBar": {
       "foreground": "foreground",
-      "disabledForeground": "disabled",
+      "disabledForeground": "mutedForeground",
       "disabledBackground": "background",
       "borderColor": "background",
       "highlight": "background",
@@ -232,7 +229,7 @@
     },
     "MenuItem": {
       "foreground": "foreground",
-      "disabledForeground": "disabled",
+      "disabledForeground": "mutedForeground",
       "selectionForeground": "selectionForeground",
       "selectionBackground": "selectionBackground",
       "acceleratorForeground": "text"
@@ -279,9 +276,8 @@
       "selectionBackground": "muted",
       "inactiveForeground": "disabled"
     },
-
     "Plugins": {
-      "disabledForeground": "disabled",
+      "disabledForeground": "mutedForeground",
       "lightSelectionBackground": "selectionBackground",
       "tagBackground": "highlight",
       "eapTagBackground": "highlight",
@@ -296,7 +292,7 @@
         "installBorderColor": "button",
         "installFillForeground": "disabled",
         "installFillBackground": "button",
-        "installFocusedBackground": "highlight",
+        "installFocusedBackground": "primaryHover",
         "updateForeground": "foreground",
         "updateBackground": "button",
         "updateBorderColor": "button"
@@ -338,12 +334,12 @@
     "RadioButton": {
       "foreground": "foreground",
       "background": "background",
-      "disabledText": "disabled"
+      "disabledText": "mutedForeground"
     },
     "RadioButtonMenuItem": {
       "foreground": "foreground",
       "selectionBackground": "selectionBackground",
-      "disabledForeground": "disabled",
+      "disabledForeground": "mutedForeground",
       "acceleratorForeground": "text",
       "acceleratorSelectionForeground": "text"
     },
@@ -375,8 +371,7 @@
     "SearchField": {
       "errorBackground": "notificationsColor"
     },
-    "SearchMatch": {
-    },
+    "SearchMatch": {},
     "Separator": {
       "separatorColor": "selectionBackground"
     },
@@ -406,7 +401,7 @@
     "TabbedPane": {
       "foreground": "foreground",
       "background": "background",
-      "disabledForeground": "disabled",
+      "disabledForeground": "mutedForeground",
       "disabledUnderlineColor": "disabled",
       "hoverColor": "highlight",
       "focusColor": "muted",
@@ -572,8 +567,7 @@
         "backgroundBase": "highlight"
       }
     },
-    "Viewport": {
-    },
+    "Viewport": {},
     "WelcomeScreen": {
       "background": "contrast",
       "borderColor": "background",
@@ -600,9 +594,23 @@
   "icons": {
     "ColorPalette": {
       "Checkbox.Background.Default": "#141414",
-      "Checkbox.Background.Disabled": "#343434",
-      "Checkbox.Border.Disabled": "#343434",
-      "Checkbox.Border.Default": "#343434"
+      "Checkbox.Background.Disabled": "disabled",
+      "Checkbox.Border.Disabled": "disabled",
+      "Checkbox.Border.Default": "#343434",
+      "Checkbox.Background.Selected": "primary",
+      "Checkbox.Background.Selected.Dark": "primary",
+      "Checkbox.Border.Selected": "primary",
+      "Checkbox.Border.Selected.Dark": "primary",
+      "Checkbox.Foreground.Selected": "selectionForeground",
+      "Checkbox.Foreground.Selected.Dark": "selectionForeground",
+      "Checkbox.Focus.Wide": "primary",
+      "Checkbox.Focus.Wide.Dark": "primary",
+      "Checkbox.Focus.Thin.Default": "primary",
+      "Checkbox.Focus.Thin.Default.Dark": "primary",
+      "Checkbox.Focus.Thin.Selected": "primaryHover",
+      "Checkbox.Focus.Thin.Selected.Dark": "primaryHover",
+      "Checkbox.Background.Disabled.Dark": "disabled",
+      "Checkbox.Border.Disabled.Dark": "disabled"
     }
   }
 }
