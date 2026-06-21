@@ -6,8 +6,8 @@
   "editorScheme": "/colors/Lotus_Dark.xml",
   "colors": {
     "background": "#0E0F11",
-    "foreground": "#DADBDD",
-    "border": "#363A44",
+    "foreground": "#EDEDEE",
+    "border": "#404040",
     "muted": "#262626",
     "mutedForeground": "#8F9299",
     "transparent": "#00000000",
@@ -26,9 +26,9 @@
   },
   "ui": {
     "Island": {
-      "borderColor": "muted",
+      "borderColor": "border",
       "arc": 24,
-      "borderWidth": 6
+      "borderWidth": 8
     },
     "StatusBar.borderColor": "transparent",
     "MainToolbar.borderColor": "transparent",
@@ -62,7 +62,7 @@
       "underlinedTabBackground": "muted"
     },
     "Borders": {
-      "color": "muted",
+      "color": "border",
       "ContrastBorderColor": "background"
     },
     "Button": {
@@ -72,14 +72,21 @@
       "borderColor": "border",
       "startBorderColor": "border",
       "endBorderColor": "border",
+      "shadowColor": "transparent",
       "focusColor": "primary",
+      "focusedBorderColor": "primary",
+      "outlineColor": "primary",
       "arc": "8",
       "default": {
         "foreground": "selectionForeground",
         "startBackground": "primary",
         "endBackground": "primary",
+        "startBorderColor": "primary",
+        "endBorderColor": "primary",
+        "shadowColor": "transparent",
         "focusColor": "primaryHover",
-        "focusedBorderColor": "muted"
+        "focusedBorderColor": "muted",
+        "outlineColor": "muted"
       }
     },
     "CheckBox": {
@@ -154,7 +161,8 @@
     "Editor": {
       "foreground": "foreground",
       "background": "background",
-      "shortcutForeground": "text"
+      "shortcutForeground": "text",
+      "Toolbar.borderColor": "border"
     },
     "EditorPane": {
       "inactiveBackground": "background",
@@ -195,7 +203,8 @@
       "hoverForeground": "primaryHover",
       "pressedForeground": "primaryHover",
       "visitedForeground": "primary",
-      "secondaryForeground": "text"
+      "secondaryForeground": "text",
+      "focusedBorderColor": "primary"
     },
     "List": {
       "foreground": "foreground",
@@ -297,9 +306,7 @@
         "updateBackground": "button",
         "updateBorderColor": "button"
       },
-      "SearchField": {
-        "borderColor": "border"
-      },
+      "SearchField.borderColor": "border",
       "SectionHeader": {
         "foreground": "foreground",
         "background": "background"
@@ -371,7 +378,6 @@
     "SearchField": {
       "errorBackground": "notificationsColor"
     },
-    "SearchMatch": {},
     "Separator": {
       "separatorColor": "selectionBackground"
     },
@@ -567,7 +573,6 @@
         "backgroundBase": "highlight"
       }
     },
-    "Viewport": {},
     "WelcomeScreen": {
       "background": "contrast",
       "borderColor": "background",
@@ -589,7 +594,10 @@
       "border": "muted"
     },
     "window": "background",
-    "windowBorder": "muted"
+    "windowBorder": "muted",
+    "Focus": {
+      "borderColor": "primary"
+    }
   },
   "icons": {
     "ColorPalette": {
@@ -610,7 +618,14 @@
       "Checkbox.Focus.Thin.Selected": "primaryHover",
       "Checkbox.Focus.Thin.Selected.Dark": "primaryHover",
       "Checkbox.Background.Disabled.Dark": "disabled",
-      "Checkbox.Border.Disabled.Dark": "disabled"
+      "Checkbox.Border.Disabled.Dark": "disabled",
+      "Actions.Grey": "foreground",
+      "Actions.Red": "destructive",
+      "Actions.Blue": "primary",
+      "Objects.Grey": "mutedForeground",
+      "Objects.Red": "destructive",
+      "Objects.Blue": "primary",
+      "Objects.Purple": "primary"
     }
   }
 }

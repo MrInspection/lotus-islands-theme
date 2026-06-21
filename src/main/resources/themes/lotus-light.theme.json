@@ -7,29 +7,29 @@
   "colors": {
     "background": "#ffffff",
     "foreground": "#262626",
-    "border": "#d4d4d4",
+    "border": "#B4B6BB",
     "muted": "#f5f5f5",
     "transparent": "#00000000",
     "text": "#a3a3a3",
-    "treeSelection": "#ffb6f8",
-    "selectionBackground": "#ffd0fb",
-    "selectionForeground": "#4e3a4c",
+    "treeSelection": "#DABDFD",
+    "selectionBackground": "#ECDEFE",
+    "selectionForeground": "#412464",
     "button": "#f3f4f5",
     "secondarybackground": "#fafafa",
     "disabled": "#e5e5e5",
     "contrast": "#f4f4f4",
     "highlight": "#e7e7e8",
     "notificationsColor": "#eae8e8",
-    "excluded": "#eae8e8",
     "selectionTransparentbackground": "#aaaaaa",
-    "primary": "#DB2475",
-    "destructive": "#E7000BFF"
+    "primary": "#8247C9",
+    "primaryHover": "#613597",
+    "destructive": "#FF0000"
   },
   "ui": {
     "Island": {
       "borderColor": "border",
-      "arc": 20,
-      "borderWidth": 6
+      "arc": 24,
+      "borderWidth": 8
     },
     "StatusBar.borderColor": "transparent",
     "MainToolbar.borderColor": "transparent",
@@ -40,9 +40,9 @@
       "textBackground": "background",
       "errorForeground": "destructive",
       "infoForeground": "foreground",
-      "disabledForeground": "disabled",
-      "disabledText": "foreground",
-      "inactiveForeground": "disabled",
+      "disabledForeground": "text",
+      "disabledText": "text",
+      "inactiveForeground": "text",
       "disabledBackground": "disabled",
       "inactiveBackground": "disabled",
       "selectionForeground": "selectionForeground",
@@ -53,7 +53,8 @@
       "acceleratorSelectionForeground": "selectionForeground",
       "disabledBorderColor": "disabled",
       "separatorColor": "border",
-      "lineSeparatorColor": "treeSelection"
+      "lineSeparatorColor": "treeSelection",
+      "focusColor": "primary"
     },
     "Borders": {
       "color": "border",
@@ -61,32 +62,40 @@
     },
     "Button": {
       "foreground": "foreground",
-      "startBackground": "background",
-      "endBackground": "background",
+      "startBackground": "button",
+      "endBackground": "button",
       "borderColor": "border",
       "startBorderColor": "border",
       "endBorderColor": "border",
+      "shadowColor": "transparent",
+      "focusColor": "primary",
+      "focusedBorderColor": "primary",
+      "outlineColor": "primary",
       "arc": "8",
       "default": {
-        "foreground": "selectionForeground",
+        "foreground": "#FFFFFF",
         "startBackground": "primary",
         "endBackground": "primary",
-        "focusColor": "primary",
-        "focusedBorderColor": "muted"
+        "startBorderColor": "primary",
+        "endBorderColor": "primary",
+        "shadowColor": "transparent",
+        "focusColor": "primaryHover",
+        "focusedBorderColor": "muted",
+        "outlineColor": "muted"
       }
     },
     "CheckBox": {
       "foreground": "border",
       "background": "background",
-      "disabledText": "disabled"
+      "disabledText": "text"
     },
     "CheckBoxMenuItem": {
       "foreground": "border",
       "background": "background",
       "selectionForeground": "selectionForeground",
-      "selectionBackground": "selectionbackground",
-      "disabledForeground": "foreground",
-      "disabledBackground": "disabled",
+      "selectionBackground": "selectionBackground",
+      "disabledForeground": "text",
+      "disabledBackground": "background",
       "acceleratorForeground": "text",
       "acceleratorSelectionForeground": "text"
     },
@@ -97,7 +106,6 @@
     "ComboBox": {
       "foreground": "foreground",
       "background": "background",
-      "disabledForeground": "disabled",
       "selectionForeground": "foreground",
       "selectionBackground": "muted",
       "nonEditableBackground": "background",
@@ -116,7 +124,7 @@
     },
     "CompletionPopup": {
       "foreground": "foreground",
-      "selectionBackground": "selectionbackground",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "highlight"
     },
     "Component": {
@@ -147,7 +155,9 @@
     "Editor": {
       "foreground": "foreground",
       "background": "background",
-      "shortcutForeground": "text"
+      "shortcutForeground": "text",
+      "Toolbar.borderColor": "border",
+      "SearchField.bordercolor": "border"
     },
     "EditorPane": {
       "inactiveBackground": "background"
@@ -187,17 +197,21 @@
       "foreground": "foreground",
       "infoForeground": "text",
       "selectedForeground": "selectionForeground",
-      "disabledForeground": "disabled",
-      "disabledText": "disabled"
+      "disabledText": "text"
     },
     "Link": {
-      "secondaryForeground": "text"
+      "activeForeground": "primary",
+      "hoverForeground": "primaryHover",
+      "pressedForeground": "primaryHover",
+      "visitedForeground": "primary",
+      "secondaryForeground": "text",
+      "focusedBorderColor": "primary"
     },
     "List": {
       "foreground": "foreground",
       "background": "secondarybackground",
       "selectionForeground": "selectionForeground",
-      "selectionBackground": "selectionbackground",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveForeground": "selectionForeground",
       "selectionInactiveBackground": "selectionTransparentbackground"
     },
@@ -208,8 +222,8 @@
     "Menu": {
       "foreground": "foreground",
       "selectionForeground": "selectionForeground",
-      "selectionBackground": "selectionbackground",
-      "disabledForeground": "disabled",
+      "selectionBackground": "selectionBackground",
+      "disabledForeground": "text",
       "acceleratorForeground": "text",
       "acceleratorSelectionForeground": "selectionForeground",
       "borderColor": "border",
@@ -217,7 +231,7 @@
     },
     "MenuBar": {
       "foreground": "foreground",
-      "disabledForeground": "disabled",
+      "disabledForeground": "text",
       "disabledBackground": "background",
       "borderColor": "background",
       "highlight": "background",
@@ -225,9 +239,9 @@
     },
     "MenuItem": {
       "foreground": "foreground",
-      "disabledForeground": "disabled",
+      "disabledForeground": "text",
       "selectionForeground": "selectionForeground",
-      "selectionBackground": "selectionbackground",
+      "selectionBackground": "selectionBackground",
       "acceleratorForeground": "text"
     },
     "NavBar": {
@@ -274,8 +288,8 @@
       "inactiveForeground": "disabled"
     },
     "Plugins": {
-      "disabledForeground": "disabled",
-      "lightSelectionBackground": "selectionbackground",
+      "disabledForeground": "text",
+      "lightSelectionBackground": "selectionBackground",
       "tagBackground": "highlight",
       "eapTagBackground": "highlight",
       "Tab": {
@@ -289,7 +303,7 @@
         "installBorderColor": "button",
         "installFillForeground": "disabled",
         "installFillBackground": "button",
-        "installFocusedBackground": "highlight",
+        "installFocusedBackground": "primaryHover",
         "updateForeground": "foreground",
         "updateBackground": "button",
         "updateBorderColor": "button"
@@ -331,13 +345,13 @@
     "RadioButton": {
       "foreground": "foreground",
       "background": "background",
-      "disabledText": "disabled"
+      "disabledText": "text"
     },
     "RadioButtonMenuItem": {
       "foreground": "foreground",
       "background": "background",
-      "selectionBackground": "selectionbackground",
-      "disabledForeground": "disabled"
+      "selectionBackground": "selectionBackground",
+      "disabledForeground": "text"
     },
     "ScrollBar": {
       "background": "background",
@@ -396,7 +410,7 @@
     "TabbedPane": {
       "foreground": "foreground",
       "background": "background",
-      "disabledForeground": "disabled",
+      "disabledForeground": "text",
       "disabledUnderlineColor": "disabled",
       "hoverColor": "highlight",
       "focusColor": "muted",
@@ -493,6 +507,9 @@
       "Stripe": {
         "borderColor": "transparent"
       },
+      "Button": {
+        "selectedBackground": "primary"
+      },
       "Header": {
         "background": "secondarybackground",
         "inactiveBackground": "background",
@@ -512,7 +529,7 @@
       "foreground": "foreground",
       "background": "background",
       "selectionForeground": "selectionForeground",
-      "selectionBackground": "treeSelectionColor",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "muted",
       "hash": "border"
     },
@@ -573,7 +590,7 @@
       "separatorColor": "border",
       "Projects": {
         "background": "background",
-        "selectionBackground": "selectionbackground",
+        "selectionBackground": "selectionBackground",
         "selectionInactiveBackground": "secondarybackground"
       }
     },
@@ -581,21 +598,38 @@
       "border": "border"
     },
     "window": "background",
-    "windowBorder": "border"
+    "windowBorder": "border",
+    "Focus": {
+      "borderColor": "primary"
+    }
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Grey": "#000000",
-      "Actions.GreyInline": "#000000",
-      "Actions.GreyInline.Dark": "#000000",
-      "Actions.Yellow": "#000000",
-      "Objects.Grey": "#000000",
-      "Objects.Yellow": "#000000",
-      "Objects.YellowDark": "#000000",
       "Checkbox.Background.Default": "#FAFAFA",
-      "Checkbox.Background.Disabled": "#727272",
-      "Checkbox.Border.Disabled": "#222222",
-      "Checkbox.Border.Default": "#343434"
+      "Checkbox.Background.Disabled": "disabled",
+      "Checkbox.Border.Disabled": "disabled",
+      "Checkbox.Border.Default": "#343434",
+      "Checkbox.Background.Selected": "primary",
+      "Checkbox.Background.Selected.Dark": "primary",
+      "Checkbox.Border.Selected": "primary",
+      "Checkbox.Border.Selected.Dark": "primary",
+      "Checkbox.Foreground.Selected": "#FFFFFF",
+      "Checkbox.Foreground.Selected.Dark": "#FFFFFF",
+      "Checkbox.Focus.Wide": "primary",
+      "Checkbox.Focus.Wide.Dark": "primary",
+      "Checkbox.Focus.Thin.Default": "primary",
+      "Checkbox.Focus.Thin.Default.Dark": "primary",
+      "Checkbox.Focus.Thin.Selected": "primaryHover",
+      "Checkbox.Focus.Thin.Selected.Dark": "primaryHover",
+      "Checkbox.Background.Disabled.Dark": "disabled",
+      "Checkbox.Border.Disabled.Dark": "disabled",
+      "Actions.Grey": "foreground",
+      "Actions.Red": "destructive",
+      "Actions.Blue": "primary",
+      "Objects.Grey": "text",
+      "Objects.Red": "destructive",
+      "Objects.Blue": "primary",
+      "Objects.Purple": "primary"
     }
   }
 }

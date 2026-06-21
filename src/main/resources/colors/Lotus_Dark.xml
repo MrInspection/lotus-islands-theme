@@ -25,7 +25,7 @@
         <option name="DELETED_LINES_COLOR" value="ff6188" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
-        <option name="DOCUMENTATION_COLOR" value="141414" />
+        <option name="DOCUMENTATION_COLOR" value="0E0F11" />
         <option name="FILESTATUS_ADDED" value="a9dc76" />
         <option name="FILESTATUS_COPIED" value="a9dc76" />
         <option name="FILESTATUS_DELETED" value="727072" />
@@ -49,7 +49,7 @@
         <option name="FILESTATUS_modifiedOutside" value="78dce8" />
         <option name="GUTTER_BACKGROUND" value="121212" />
         <option name="INDENT_GUIDE" value="333333" />
-        <option name="INFORMATION_HINT" value="141414" />
+        <option name="INFORMATION_HINT" value="0E0F11" />
         <option name="LINE_NUMBERS_COLOR" value="5b595c" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c1c0c0" />
         <option name="METHOD_SEPARATORS_COLOR" value="59575a" />
@@ -66,7 +66,7 @@
         <option name="SELECTION_FOREGROUND" value="ffffff" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="222222" />
         <option name="TEARLINE_COLOR" value="3b3539" />
-        <option name="TOOLTIP" value="141414" />
+        <option name="TOOLTIP" value="0E0F11" />
         <option name="VCS_ANNOTATIONS_COLOR_1" value="727072" />
         <option name="VCS_ANNOTATIONS_COLOR_2" value="59575a" />
         <option name="VCS_ANNOTATIONS_COLOR_3" value="ff6188" />
@@ -2150,7 +2150,7 @@
                 <option name="FOREGROUND" value="a9dc76" />
                 <option name="FONT_TYPE" value="2" />
             </value>
-        </option>
+        </option>r
         <option name="OC.SELFSUPERTHIS">
             <value>
                 <option name="FOREGROUND" value="ff6188" />
