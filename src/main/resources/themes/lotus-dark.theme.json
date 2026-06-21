@@ -7,7 +7,7 @@
   "colors": {
     "background": "#0E0F11",
     "foreground": "#EDEDEE",
-    "border": "#404040",
+    "border": "#333333",
     "muted": "#262626",
     "mutedForeground": "#8F9299",
     "transparent": "#00000000",
@@ -57,9 +57,9 @@
     },
     "EditorTabs": {
       "background": "background",
-      "underlinedBorderColor": "border",
+      "underlinedBorderColor": "#613597",
       "inactiveColoredFileBackground": "background",
-      "underlinedTabBackground": "muted"
+      "underlinedTabBackground": "#311B4B"
     },
     "Borders": {
       "color": "border",

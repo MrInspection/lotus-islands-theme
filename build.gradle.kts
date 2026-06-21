@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "fr.moussax"
-version = "1.0.3"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
     intellijPlatform {
-        intellijIdea("2025.3")
+        intellijIdea("2026.1")
         bundledPlugin("com.intellij.java")
         testFramework(TestFrameworkType.Platform)
     }
