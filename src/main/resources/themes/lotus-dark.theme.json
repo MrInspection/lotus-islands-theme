@@ -15,7 +15,7 @@
     "disabled": "#2a2a2a",
     "text": "#757575",
     "highlight": "#565656",
-    "selectionBackground": "#323232",
+    "selectionBackground": "#311B4B",
     "selectionForeground": "#D7D7D7",
     "treeSelection": "#292929",
     "button": "#1C1C1C",
@@ -67,6 +67,7 @@
     },
     "Button": {
       "foreground": "foreground",
+      "background": "button",
       "startBackground": "button",
       "endBackground": "button",
       "borderColor": "border",
@@ -83,10 +84,10 @@
         "endBackground": "primary",
         "startBorderColor": "primary",
         "endBorderColor": "primary",
-        "shadowColor": "transparent",
+        "shadowColor": "primary",
         "focusColor": "primaryHover",
-        "focusedBorderColor": "muted",
-        "outlineColor": "muted"
+        "focusedBorderColor": "primaryHover",
+        "outlineColor": "primaryHover"
       }
     },
     "CheckBox": {
@@ -315,7 +316,7 @@
     "Popup": {
       "inactiveBorderColor": "background",
       "separatorForeground": "foreground",
-      "separatorColor": "selectionBackground",
+      "separatorColor": "border",
       "borderColor": "muted",
       "Advertiser": {
         "background": "background"
@@ -379,7 +380,7 @@
       "errorBackground": "notificationsColor"
     },
     "Separator": {
-      "separatorColor": "selectionBackground"
+      "separatorColor": "border"
     },
     "SidePanel": {
       "background": "background"
@@ -509,7 +510,7 @@
       "Header": {
         "background": "selectionBackground",
         "inactiveBackground": "background",
-        "borderColor": "selectionBackground"
+        "borderColor": "border"
       },
       "HeaderCloseButton": {
         "background": "background"
@@ -525,7 +526,7 @@
       "foreground": "foreground",
       "background": "contrast",
       "selectionForeground": "selectionForeground",
-      "selectionBackground": "treeSelection",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "muted",
       "hash": "muted"
     },

@@ -1067,8 +1067,8 @@
         </option>
         <option name="INLINE_PARAMETER_HINT">
             <value>
-                <option name="FOREGROUND" value="969694" />
-                <option name="BACKGROUND" value="262626" />
+                <option name="FOREGROUND" value="a3a3a3" />
+                <option name="BACKGROUND" value="404040" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
