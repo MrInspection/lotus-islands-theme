@@ -63,7 +63,8 @@
       "background": "background",
       "underlinedBorderColor": "primary",
       "inactiveColoredFileBackground": "background",
-      "underlinedTabBackground": "selectionBackground"
+      "underlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "border"
     },
     "Borders": {
       "color": "border",
