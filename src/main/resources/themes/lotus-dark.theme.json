@@ -23,7 +23,8 @@
     "primary": "#A259FB",
     "primaryHover": "#8247C9",
     "destructive": "#FF0000",
-    "warning": "#FF6B00"
+    "warning": "#FF6B00",
+    "success": "#0DA500"
   },
   "ui": {
     "Window.background": "background",
@@ -86,12 +87,12 @@
         "background": "transparent",
         "startBackground": "primary",
         "endBackground": "primary",
-        "startBorderColor": "primary",
-        "endBorderColor": "primary",
+        "startBorderColor": "background",
+        "endBorderColor": "background",
         "shadowColor": "transparent",
-        "focusColor": "primaryHover",
-        "focusedBorderColor": "primaryHover",
-        "outlineColor": "primaryHover"
+        "focusColor": "primary",
+        "focusedBorderColor": "background",
+        "outlineColor": "primary"
       }
     },
     "CheckBox": {
@@ -140,6 +141,7 @@
     },
     "Component": {
       "borderColor": "border",
+      "focusedBorderColor": "border",
       "infoForeground": "text",
       "disabledBorderColor": "disabled",
       "focusColor": "primary",
@@ -258,15 +260,17 @@
     "Notification": {
       "foreground": "foreground",
       "background": "notificationsColor",
+      "errorForeground": "destructive",
+      "warningForeground": "warning",
       "MoreButton": {
         "foreground": "foreground",
         "background": "button",
         "innerBorderColor": "button"
       },
       "ToolWindow": {
-        "informativeForeground": "foreground",
-        "warningForeground": "foreground",
-        "errorForeground": "foreground"
+        "informativeForeground": "primary",
+        "warningForeground": "warning",
+        "errorForeground": "destructive"
       }
     },
     "OptionPane": {
@@ -346,8 +350,8 @@
     "ProgressBar": {
       "trackColor": "highlight",
       "progressColor": "primary",
-      "passedColor": "#0DA500",
-      "passedEndColor": "#0DA500",
+      "passedColor": "success",
+      "passedEndColor": "success",
       "warningColor": "warning",
       "warningEndColor": "warning",
       "failedColor": "destructive",
@@ -556,9 +560,9 @@
     },
     "ValidationTooltip": {
       "errorBackground": "notificationsColor",
-      "errorBorderColor": "notificationsColor",
+      "errorBorderColor": "destructive",
       "warningBackground": "notificationsColor",
-      "warningBorderColor": "notificationsColor"
+      "warningBorderColor": "warning"
     },
     "VersionControl": {
       "FileHistory": {
@@ -613,7 +617,7 @@
     "window": "background",
     "windowBorder": "muted",
     "Focus": {
-      "borderColor": "primary"
+      "borderColor": "border"
     }
   },
   "icons": {
@@ -639,10 +643,15 @@
       "Actions.Grey": "foreground",
       "Actions.Red": "destructive",
       "Actions.Blue": "primary",
+      "Actions.Yellow": "warning",
+      "Actions.Green": "success",
       "Objects.Grey": "mutedForeground",
       "Objects.Red": "destructive",
       "Objects.Blue": "primary",
-      "Objects.Purple": "primary"
+      "Objects.Purple": "primary",
+      "Objects.Yellow": "warning",
+      "Objects.YellowDark": "warning",
+      "Objects.Green": "success"
     }
   }
 }
