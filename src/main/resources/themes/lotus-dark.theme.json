@@ -6,25 +6,28 @@
   "editorScheme": "/colors/Lotus_Dark.xml",
   "colors": {
     "background": "#0E0F11",
-    "foreground": "#d4d4d4",
-    "border": "#333333",
-    "muted": "#262626",
+    "foreground": "#DADBDD",
+    "border": "#292C33",
+    "muted": "#1B1D22",
     "mutedForeground": "#8F9299",
     "transparent": "#00000000",
-    "contrast": "#101010",
-    "disabled": "#2a2a2a",
-    "text": "#757575",
-    "highlight": "#565656",
-    "selectionBackground": "#311B4B",
-    "selectionForeground": "#D7D7D7",
-    "treeSelection": "#292929",
-    "button": "#1C1C1C",
-    "notificationsColor": "#111111",
+    "contrast": "#1B1D22",
+    "disabled": "#292C33",
+    "text": "#696D77",
+    "highlight": "#363A44",
+    "selectionBackground": "#412464",
+    "selectionForeground": "#EDEDEE",
+    "treeSelection": "#292C33",
+    "button": "#1B1D22",
+    "notificationsColor": "#0E0F11",
     "primary": "#A259FB",
     "primaryHover": "#8247C9",
-    "destructive": "#FF0000"
+    "destructive": "#FF0000",
+    "warning": "#FF6B00"
   },
   "ui": {
+    "Window.background": "background",
+    "MainWindow.background": "background",
     "Island": {
       "borderColor": "border",
       "arc": 24,
@@ -57,9 +60,9 @@
     },
     "EditorTabs": {
       "background": "background",
-      "underlinedBorderColor": "#613597",
+      "underlinedBorderColor": "primary",
       "inactiveColoredFileBackground": "background",
-      "underlinedTabBackground": "#311B4B"
+      "underlinedTabBackground": "selectionBackground"
     },
     "Borders": {
       "color": "border",
@@ -67,7 +70,7 @@
     },
     "Button": {
       "foreground": "foreground",
-      "background": "button",
+      "background": "transparent",
       "startBackground": "button",
       "endBackground": "button",
       "borderColor": "border",
@@ -80,11 +83,12 @@
       "arc": "8",
       "default": {
         "foreground": "selectionForeground",
+        "background": "transparent",
         "startBackground": "primary",
         "endBackground": "primary",
         "startBorderColor": "primary",
         "endBorderColor": "primary",
-        "shadowColor": "primary",
+        "shadowColor": "transparent",
         "focusColor": "primaryHover",
         "focusedBorderColor": "primaryHover",
         "outlineColor": "primaryHover"
@@ -138,7 +142,11 @@
       "borderColor": "border",
       "infoForeground": "text",
       "disabledBorderColor": "disabled",
-      "focusColor": "primary"
+      "focusColor": "primary",
+      "errorFocusColor": "destructive",
+      "inactiveErrorFocusColor": "destructive",
+      "warningFocusColor": "warning",
+      "inactiveWarningFocusColor": "warning"
     },
     "Counter": {
       "foreground": "selectionForeground"
@@ -177,7 +185,7 @@
       "inactiveForeground": "disabled"
     },
     "Group": {
-      "separatorColor": "foreground",
+      "separatorColor": "border",
       "disabledSeparatorColor": "muted"
     },
     "GutterTooltip": {
@@ -337,7 +345,15 @@
     },
     "ProgressBar": {
       "trackColor": "highlight",
-      "selectionBackground": "highlight"
+      "progressColor": "primary",
+      "passedColor": "#0DA500",
+      "passedEndColor": "#0DA500",
+      "warningColor": "warning",
+      "warningEndColor": "warning",
+      "failedColor": "destructive",
+      "failedEndColor": "destructive",
+      "indeterminateStartColor": "primary",
+      "indeterminateEndColor": "primaryHover"
     },
     "RadioButton": {
       "foreground": "foreground",
@@ -524,7 +540,7 @@
     },
     "Tree": {
       "foreground": "foreground",
-      "background": "contrast",
+      "background": "transparent",
       "selectionForeground": "selectionForeground",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "muted",
