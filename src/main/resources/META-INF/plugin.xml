@@ -21,29 +21,23 @@
     ]]></description>
 
     <change-notes><![CDATA[
-    <br>
-    <b>Version 1.0.3</b>
+    <b>Version 1.1.0</b>
     <ul>
-      <li>Fixes and enhancements.</li>
-    </ul>
-    <br>
-    <b>Version 1.0.2</b>
-    <ul>
-      <li>Refined Lotus Islands Light syntax colors for better readability</li>
-      <li>Refined Lotus Islands Light UI elements for improved contrast</li>
-      <li>Refined UI colors to be more neutral.</li>
-      <li>More fixes and improvements</li>
-    </ul>
-    <br>
-    <b>Version 1.0.1</b>
-    <ul>
-      <li>Fixed Lotus Islands Dark color highlights issues.</li>
-      <li>Enhanced Lotus Islands Dark colors with clearer borders and more...</li>
-    </ul>
-    <br>
-    <b>Version 1.0.0</b>
-    <ul>
-      <li>Initial version with support for the new Islands UI (2025.3).</li>
+      <li>Lotus Islands Dark:
+        <ul>
+          <li>Updated core foreground, background, and border colors for a more refined look</li>
+          <li>Refined typography contrast for better readability of active and muted text</li>
+          <li>Integrated full design system colors including new success and warning states</li>
+          <li>Redesigned status components, including validation tooltips, progress bars, and tool window notifications</li>
+          <li>Adjusted console background and inline parameter hints to match the theme</li>
+        </ul>
+      </li>
+      <li>Lotus Islands Light:
+        <ul>
+          <li>Overhauled syntax colors and UI elements to ensure high contrast and readability</li>
+          <li>Applied design system colors consistently across all active, hovered, selected, and disabled UI states</li>
+        </ul>
+      </li>
     </ul>
   ]]></change-notes>
 
