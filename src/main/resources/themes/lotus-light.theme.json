@@ -55,8 +55,8 @@
       "acceleratorForeground": "selectionForeground",
       "acceleratorSelectionForeground": "selectionForeground",
       "disabledBorderColor": "disabled",
-      "separatorColor": "treeSelection",
-      "lineSeparatorColor": "treeSelection",
+      "separatorColor": "border",
+      "lineSeparatorColor": "border",
       "focusColor": "primary"
     },
     "EditorTabs": {
@@ -507,17 +507,17 @@
     "ToolBar": {
       "foreground": "foreground",
       "background": "contrast",
-      "borderHandleColor": "text",
+      "borderHandleColor": "border",
       "floatingForeground": "text"
     },
     "Tooltip": {
-      "separatorColor": "highlight"
+      "separatorColor": "border"
     },
     "ToolTip": {
       "foreground": "foreground",
       "background": "background",
       "infoForeground": "text",
-      "borderColor": "highlight",
+      "borderColor": "border",
       "Actions": {
         "background": "background",
         "infoForeground": "text"
