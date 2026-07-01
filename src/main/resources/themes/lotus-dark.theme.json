@@ -27,8 +27,6 @@
     "success": "#0DA500"
   },
   "ui": {
-    "Window.background": "background",
-    "MainWindow.background": "background",
     "Island": {
       "borderColor": "border",
       "arc": 24,
@@ -72,7 +70,6 @@
     },
     "Button": {
       "foreground": "foreground",
-      "background": "transparent",
       "startBackground": "button",
       "endBackground": "button",
       "borderColor": "border",
@@ -82,16 +79,15 @@
       "focusColor": "primary",
       "focusedBorderColor": "primary",
       "outlineColor": "primary",
-      "arc": "8",
+      "arc": 8,
       "default": {
         "foreground": "selectionForeground",
-        "background": "transparent",
         "startBackground": "primary",
         "endBackground": "primary",
-        "startBorderColor": "background",
-        "endBorderColor": "background",
+        "startBorderColor": "primary",
+        "endBorderColor": "primary",
         "shadowColor": "transparent",
-        "focusColor": "primary",
+        "focusColor": "primaryHover",
         "focusedBorderColor": "background",
         "outlineColor": "primary"
       }

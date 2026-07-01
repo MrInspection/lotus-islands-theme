@@ -2,7 +2,7 @@
     <id>fr.moussax.lotus-islands-theme</id>
     <name>Lotus Islands Theme</name>
     <vendor url="https://moussax.vercel.app/theme" email="codewithmoussa@gmail.com">Moussa</vendor>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
 
     <description><![CDATA[
     <main style="padding: 0 2rem; line-height: 1.5; font-size: 18px">
@@ -21,6 +21,12 @@
     ]]></description>
 
     <change-notes><![CDATA[
+    <b>Version 1.1.1</b>
+    <ul>
+      <li>Fixed background rendering artifacts causing opaque corner clipping on rounded dialogs.</li>
+      <li>Refined primary button styling to fix border masking and ensure crisp, native-looking focus rings.</li>
+    </ul>
+
     <b>Version 1.1.0</b>
     <ul>
       <li>Lotus Islands Dark:
